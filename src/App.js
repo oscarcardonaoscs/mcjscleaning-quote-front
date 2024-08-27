@@ -44,7 +44,7 @@ function App() {
     >
       <div className="d-flex align-items-center mb-4">
         <img
-          src="/logo.png"
+          src={`${process.env.PUBLIC_URL}/logo.png`}
           alt="Company Logo"
           style={{ height: "90px", marginRight: "15px" }}
         />
